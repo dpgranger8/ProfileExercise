@@ -28,12 +28,13 @@
     display: flex;
     align-self: flex-start;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+    position: relative;
     height: 100%;
     width: 100%;
     align-self: center;
     margin: 50px;
-    transform: translateY(-80px);
+    top: -50px;
 }
 
 #eagle {
@@ -69,4 +70,13 @@
 
 #pencilsvg {
     padding-right: 5px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+}
+
+#inputbox {
+    margin-top: 1rem;
 }
