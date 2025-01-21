@@ -1,0 +1,72 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#roundedcontainer {
+    display: flex;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 1rem;
+    margin-top: 1.5rem;
+    height: 80vh;
+    background-size: contain;
+    background-image: url("designer.jpg");
+}
+
+#banner {
+    display: flex;
+    align-self: flex-end;
+    border: 1px solid black;
+    border-radius: 9px;
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    background-color: white;
+}
+
+#left {
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    align-self: center;
+    margin: 50px;
+    transform: translateY(-80px);
+}
+
+#eagle {
+    border-radius: 500px;
+    border: 3px solid black;
+    height: 100px;
+    width: 100px;
+}
+
+#profilepic {
+    border-radius: 500px;
+    border: 1.5px solid black;
+    height: 40px;
+    width: 40px;
+    transform: translateX(-40px);
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+}
+
+#pictures {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#editprofilebutton {
+    display: flex;
+    padding: 0.5rem;
+}
+
+#pencilsvg {
+    padding-right: 5px;
+}
